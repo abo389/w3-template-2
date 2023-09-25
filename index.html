@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- custum css file -->
+    <link rel="stylesheet" href="style.css">
+    <title>w3-template-2</title>
+</head>
+<body>
+    <nav>
+        <div class="container-nav">
+            <a href="#home" class="logo">home</a>
+            <ul id="links">
+                <li><a href="#band">band</a></li>
+                <li><a href="#tour">tour</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li>
+                    <a href="#">more</a>
+                    <ul style="display: none;">
+                        <li><a href="#merchandise">merchandisa</a></li>
+                        <li><a href="#extras">extras</a></li>
+                        <li><a href="#media">media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <i class="fas fa-search"></i>
+            <i id="menu" class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <div class="landing" id="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/ny.jpg" alt="">
+                    <div class="text">
+                        <h3>new york</h3>
+                        <p>The atmosphere in New York is lorem ipsum.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/chicago.jpg" alt="">
+                    <div class="text">
+                        <h3>chicago</h3>
+                        <p>Thank you, Chicago - A night we won't forget.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/la.jpg" alt="">
+                    <div class="text">
+                        <h3>los angeles</h3>
+                        <p>We had the best time playing at Venice Beach!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <section class="band" id="band">
+        <h2 class="section-head">
+            the band
+        </h2>
+        <p>we love music</p>
+        <div class="container">
+            <div class="text">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <h4>Name</h4>
+                    <img src="img/bandmember.jpg" alt="::">
+                </div>
+                <div class="box">
+                    <h4>Name</h4>
+                    <img src="img/bandmember.jpg" alt="::">
+                </div>
+                <div class="box">
+                    <h4>Name</h4>
+                    <img src="img/bandmember.jpg" alt="::">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tour-dates">
+        <h2 class="section-head">tour dates</h2>
+        <p>Remember to book your tickets!</p>
+        <div class="container">
+            <div class="head-box">
+                <p>september
+                    <span class="out">sold out</span>
+                </p>
+                <p>october
+                    <span class="out">sold out</span>
+                </p>
+                <p>november
+                    <span class="num">3</span>
+                </p>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <div class="filter">
+                        <img src="img/newyork.jpg">
+                        <span></span>
+                    </div>
+                    <div class="text">
+                    <h4>new york</h4>
+                    <span>fri 27 nov 2016</span>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>buy tickets</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="filter">
+                        <img src="img/paris.jpg">
+                        <span></span>
+                    </div>
+                    <div class="text">
+                    <h4>paris</h4>
+                    <span>sat 28 nov 2016</span>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>buy tickets</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="filter">
+                        <img src="img/sanfran.jpg">
+                        <span></span>
+                    </div>
+                    <div class="text">
+                    <h4>san francisco</h4>
+                    <span>sun 29 nov 2016</span>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button>buy tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2 class="section-head">contact</h2>
+        <p>Fan? Drop a note!</p>
+        <div class="container">
+            <ul class="info">
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Chicago, US
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    Phone: +00 151515
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    Email: mail@mail.com
+                </li>
+            </ul>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="SEND">
+            </form>
+        </div>
+        <img src="img/map.jpg">
+    </section>
+    <div class="footer">
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-twitch"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="text">Powered by Abdo</div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
